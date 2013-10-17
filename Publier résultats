@@ -1,0 +1,22 @@
+Identification
+Nom du cas: «Publier résultats»
+But: décrire les étapes permettant au client publier leurs résultats
+Acteur principal: Module de diffusion.
+Acteur secondaire: néant / (réseaux sociaux).
+Date Création: le 07/10/2013.
+Date Modification: -
+Responsable: Fabricio
+Version: 1
+
+Séquencement
+Le cas d'utilisation commence lorqu'un jouer appuyé le bouton «Publier résultats».
+Prè-conditions
+Le résultat doit être supérieur ou égal a 0.
+
+Enchainement nominal
+    1. Le systeme envoye aux réseaux sociaux le resultat du jouer.
+    2. Le système indique le succès de l'envoi du résultat.
+
+E1. Réseau indisponible
+    1. Le Systema indique que le réseau est indisponible.
+    2. Case se termine.
